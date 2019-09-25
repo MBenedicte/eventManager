@@ -1,0 +1,27 @@
+{
+  "name": "eventmanager",
+  "version": "1.0.0",
+  "description": "The application that allows user to create event",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBenedicte/eventManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBenedicte/eventManager/issues"
+  },
+  "homepage": "https://github.com/MBenedicte/eventManager#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
